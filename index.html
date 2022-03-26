@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio: Cadastro Cliente</title>
+</head>
+<body>
+    <div class="main-container">
+    <div class="big-text">
+        <h1>Learn to code by <br>watching others</h1>
+        <p>See how experienced developers solve problems in real-time. <br>
+        Watching scripted tutorials is great, but understanding how <br>
+        developers think is invaluable.</p>
+    </div>
+    <div id="main-container">
+        <div class="before">
+            <p><b>Try it for free 7 days</b> then $20/mo. thereafter</p>
+        </div>
+        <form id="form">
+            <div class="form-control">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                <i class="img-success" ><img src="assets/images/success-icon.svg" alt=""></i>
+                <i class="img-error" ><img src="assets/images/error-icon.svg" alt=""></i>
+      
+                <small>First Name cannot be empty</small>
+
+              </div>
+
+              <div class="form-control">
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                <i class="img-success" ><img src="assets/images/success-icon.svg" alt=""></i>
+                <i class="img-error" ><img src="assets/images/error-icon.svg" alt=""></i>
+    
+                <small>Last Name cannot be empty</small>
+
+              </div>
+
+              <div class="form-control">
+                <input type="email" class="form-control" id="email" placeholder="Email Address">
+                <i class="img-success" ><img src="assets/images/success-icon.svg" alt=""></i>
+                <i class="img-error" ><img src="assets/images/error-icon.svg" alt=""></i>
+      
+                <small>Looks like this is not an email</small>
+
+              </div>
+
+              <div class="form-control">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <i class="img-success" ><img src="assets/images/success-icon.svg" alt=""></i>
+                <i class="img-error" ><img src="assets/images/error-icon.svg" alt=""></i>
+      
+                <small>Password cannot be empty</small>
+              </div>
+
+            <div class="submit">
+                <button type="submit"><b>CLAIM YOUR FREE TRIAL</b></button>
+            </div>
+
+            <div class="agreement">
+                <p>By clicking the button, you are agreeing to our <b><a href="#">Terms and Services</a></b></p>
+            </div>
+        </form>
+        <p class="error-validation template"></p>
+    </div>
+</div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
